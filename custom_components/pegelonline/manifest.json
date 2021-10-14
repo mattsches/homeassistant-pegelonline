@@ -1,0 +1,12 @@
+{
+  "domain": "pegelonline",
+  "name": "PEGELONLINE",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/mattsches/pegelonline",
+  "requirements": [],
+  "dependencies": {},
+  "codeowners": [
+    "@mattsches"
+  ]
+}
