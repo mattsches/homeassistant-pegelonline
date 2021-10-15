@@ -1,6 +1,6 @@
 """Support for getting current PEGELONLINE data from the PEGELONLINE REST-API."""
 
-from homeassistant.helpers.entity import Entity
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from . import get_coordinator
 from .const import ATTR_PEGEL
 
@@ -11,12 +11,12 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
     async_add_entities([PegelOnlineSensor(coordinator, config_entry.data)])
 
 
-class PegelOnlineSensor(Entity):
+class PegelOnlineSensor(CoordinatorEntity):
     """Representation of a PEGELONLINE station."""
 
     def __init__(self, coordinator, data):
         """Initialize sensor."""
-        self.coordinator = coordinator
+        super().__init__(coordinator)
         self._uuid = data["uuid"]
         self._name = f"Pegel {data['desc']}"
         self._state = None
