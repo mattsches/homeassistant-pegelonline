@@ -7,6 +7,8 @@ PEGELONLINE provides a [REST API](https://www.pegelonline.wsv.de/webservice/doku
 
 ![Screenshot of the sensor in Home Assistant](./pegelonline.png)
 
+![Screenshot of a three-day graph in Home Assistant](./pegelonline_graph.png)
+
 ## Setup
 
 Currently, only manual installation is possible, HACS support is planned for the future.
