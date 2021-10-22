@@ -1,0 +1,10 @@
+{
+  "name": "PEGELONLINE",
+  "domains": [
+    "sensor"
+  ],
+  "render_readme": true,
+  "country": [
+    "DE"
+  ]
+}
