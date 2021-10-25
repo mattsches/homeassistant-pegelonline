@@ -11,7 +11,17 @@ PEGELONLINE provides a [REST API](https://www.pegelonline.wsv.de/webservice/doku
 
 ## Setup
 
-Currently, only manual installation is possible, HACS support is planned for the future.
+There are two ways to set up this integration:
+
+### Using HACS
+
+If you already have HACS enabled in your Home Assistant, go to `HACS -> Integrations`, and in the menu in the upper right choose "Custom repositories".
+
+In the dialog, add the custom repository URL:
+
+> `https://github.com/mattsches/homeassistant-pegelonline`
+
+and install the "PEGELONLINE" integration. You can keep the integration updated using HACS.
 
 ### Manual Setup
 
