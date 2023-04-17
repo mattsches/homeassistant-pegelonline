@@ -1,7 +1,7 @@
 {
   "domain": "pegelonline",
   "name": "PEGELONLINE",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "config_flow": true,
   "documentation": "https://github.com/mattsches/homeassistant-pegelonline",
   "issue_tracker": "https://github.com/mattsches/homeassistant-pegelonline/issues",
